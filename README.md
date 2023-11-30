@@ -1,2 +1,5 @@
-# js-algorithms
-Algorithms
+### JS - Algorithms
+
+
+## Array
+[X] - Flatten array
