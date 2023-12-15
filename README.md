@@ -43,6 +43,10 @@
 ---
 ### Javascript
 
+<details>
+
+<summary>Click to view Javascript</summary>
+
 #### 1. What is javascript?
 - JavaScript is a lightweight, interpreted, object-oriented scripting language. 
 - It allows you to build interactivity into static HTML pages. Netscape, Internet Explorer, and other web browsers include the language's general-purpose core.
@@ -334,7 +338,15 @@ Ex,
 
 
 
+</details>
+
+---
+
 ### React
+
+<details>
+
+<summary>Click to view React</summary>
 
 1. What is React?
 
@@ -353,9 +365,17 @@ Ex,
   - Components
   - Simplicity
 
+
+
+</details>
+
 ---
 
 ### NodeJs
+
+<details>
+
+<summary>Click to view NodeJs</summary>
 
 #### What is an event loop in Node.js?
 
@@ -554,7 +574,7 @@ The difference between setImmediate() and setTimeout() is that
 
 module.exports is a Node.js module that allows you to export objects, functions, and variables from your code. You can use it to create modules that can be imported and used in other Node.js programs.
 
-> [!IMPORTANT]
+> **IMPORTANT**
 #### 38. What is an express framework?
 
 The express framework is a web application framework that helps you easily create server-side applications.
@@ -563,7 +583,7 @@ The express framework is a web application framework that helps you easily creat
 
 It is used when you want to disperse request processing over multiple Node.js processors. Mostly this is done to ramp up the ability to handle more requests per second.
 
-> [!IMPORTANT]
+> **IMPORTANT**
 #### 40. What is the purpose of EventEmitter?
 
 The purpose of EventEmitter is to provide a mechanism for event-driven programming. The EventEmitter class provides a set of methods that allow you to emit events, listen for events, and remove event listeners. When an event is emitted, any listeners that are registered for that event will be invoked. This allows developers to write code that can respond to changes in state, user actions, or other events within the application.
@@ -611,7 +631,16 @@ Passport is a widely used middleware present in Node.js. It is primarily used fo
 - It is basically the manifest file that contains the metadata of the project where we define the properties of a package.
 
 
+</details>
+
+
+---
 ### Express
+
+<details>
+
+<summary>Click to view Express</summary>
+
 
 #### 1. What is Express.js?
 - Express.js is a web application framework for Node.js.
@@ -647,7 +676,16 @@ Following are the main types of Middleware:
   - Third-party Middleware
 
 
+
+</details>
+
+---
+
 ### GraphQL
+
+<details>
+
+<summary>Click to view GraphQL</summary>
 
 1. What is GraphQL?
 
@@ -701,7 +739,7 @@ Following are the main types of Middleware:
 - You can use GraphQL's built-in error type to include specific error messages or codes.
 - Additionally, you can define custom error handling logic in your server code to handle exceptions and provide meaningful error messages to clients.
 
-> [!IMPORTANT]
+> **IMPORTANT**
 10. What are the primary operations supported by GraphQL?
 
 GraphQL supports three operation types: query, mutation, and subscription.
@@ -743,12 +781,12 @@ To prevent nested query attacks on a GraphQL server, you can:
  
 - Use rate limiting: Restrict the number of queries a client can make within a specified time frame.
 
-> [!IMPORTANT]
+> **IMPORTANT**
 16. What does resolver do in GraphQL?
 
 -A resolver is used in GraphQL to handle queries and generate GraphQL responses.
 
-> [!IMPORTANT]
+> **IMPORTANT**
 17. Difference between Mutation and Query?
 
 - Query:
@@ -770,3 +808,8 @@ To prevent nested query attacks on a GraphQL server, you can:
 
 - In GraphQL, the subscription is used for listening for any data changes. The server sends a notification message to the client after any data changes, if the client is subscribed to that event.
 
+
+
+</details>
+
+---
