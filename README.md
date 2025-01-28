@@ -12,7 +12,7 @@
 - [x] [2. Sorting Array](/algorithms/array/sorting.js)
 - [x] [3. Nth Largest Number from Array](/algorithms/array/nth_largest.js)
 - [ ] [4. Maximum number of words that appear in a single sentence]()
-- [ ] [5. Sum Pairs]()
+- [x] [5. Sum Pairs or Tow Sum](/algorithms/array/sum_pairs.ts)
 - [ ] [6. Sum Pairs Multi Dimension Array]()
 - [ ] [7. Find the numbers which are not common to two arrays]()
 - [x] [8. Move Zeros Right](/algorithms/array/move_zeros_right.js)
