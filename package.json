@@ -1,0 +1,28 @@
+{
+  "name": "js-algorithms",
+  "version": "1.0.0",
+  "description": "<details>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmohanraj/js-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmohanraj/js-algorithms/issues"
+  },
+  "homepage": "https://github.com/kmohanraj/js-algorithms#readme",
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "prettier": "^3.4.2"
+  }
+}

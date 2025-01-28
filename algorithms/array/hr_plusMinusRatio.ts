@@ -28,5 +28,5 @@ const plusMinus = (arr) => {
   }
   return `${Number(positive / arr.length).toFixed(6)}\n${Number(negative / arr.length).toFixed(6)}\n${Number(zero / arr.length).toFixed(6)}`
 }
-const arr = [-4, 3, -9, 0, 4, 1]
-console.log(plusMinus(arr))
+const array = [-4, 3, -9, 0, 4, 1]
+console.log(plusMinus(array))
