@@ -1,4 +1,4 @@
-Method1:
+// Method1:
 
 const twoSum = (arr, target) => {
   for (let i = 0; i < arr.length; i++) {
@@ -15,7 +15,7 @@ console.log(twoSum([2,7,11,15], 9))
 // Output => [ 0, 1 ]
 
 
-Method2:
+// Method2:
 
 const twoSum1 = (array, target) => {
   let map = {};
@@ -32,7 +32,7 @@ console.log(twoSum1([2,7,11,15], 9))
 
 // Output => [ 0, 1 ]
 
-Method3:
+// Method3:
 
 const twoSum2 = (array, target) => {
   for (let i = 0; i < array.length; i++) {

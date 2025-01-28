@@ -1,10 +1,9 @@
-// Array sorting
+// Nth Largest Number
 
-const sorting = (arr) => {
+const nth_largest = (arr, nth) => {
   let isSorted = false;
-  arr = [...new Set(arr)] // It is used remove duplicates
   while (!isSorted) {
-    isSorted = true;
+    isSorted = true
     for (let i = 0; i < arr.length; i++) {
       if (arr[i] < arr[i-1]) {
         let temp = arr[i]
@@ -14,8 +13,8 @@ const sorting = (arr) => {
       }
     }
   }
-  return arr;
+  return arr[arr.length - nth]
 }
 
-const arr = [1, 4, 7, 45, 7,43, 44, 25, 6, 4, 6, 9]
-console.log(sorting(arr))
+const numArray = [4,8,45,33,22]
+console.log(nth_largest(numArray, 1))
